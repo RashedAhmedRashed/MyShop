@@ -11,9 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.DataAccess.InMemory"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.Services", "MyShop.Services\MyShop.Services.csproj", "{D91E6C05-3F7E-47EC-A978-76D7EA3C1707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.WebUI", "MyShop.WebUI\MyShop.WebUI.csproj", "{DA1854CC-F404-4858-ADA5-4FC3E4DDD442}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.WebUI", "..\..\..\..\Music\Downloads\MyShop-main\MyShop-main\MyShop\MyShop.WebUI\MyShop.WebUI.csproj", "{DA1854CC-F404-4858-ADA5-4FC3E4DDD442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.WebUI.Tests", "MyShop.WebUI.Tests\MyShop.WebUI.Tests.csproj", "{2FAE6E5C-8A2E-4BD4-9060-0D9785743DA6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShop.WebUI.Tests", "..\..\..\..\Music\Downloads\MyShop-main\MyShop-main\MyShop\MyShop.WebUI.Tests\MyShop.WebUI.Tests.csproj", "{2FAE6E5C-8A2E-4BD4-9060-0D9785743DA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
