@@ -10,12 +10,12 @@ namespace MyShop.DataAccess.InMemory
 {
     public class ProductsRepository
     {
-        MemoryCache cach = MemoryCache.Default;
+        ObjectCache cach = MemoryCache.Default;
         List<Products> product;
 
         public ProductsRepository()
         {
-            product = cach["Product"] as List<Products>;
+            product = cach["product"] as List<Products>;
 
             if (product == null)
                 product = new List<Products>();
@@ -68,7 +68,7 @@ namespace MyShop.DataAccess.InMemory
                 product.Remove(productToDelete);
             else
                 throw new Exception("Not Found");
-        }
+        } 
 
     }
 }
